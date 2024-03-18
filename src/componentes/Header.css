@@ -1,0 +1,28 @@
+header{
+    height: 20rem;
+    background-color: blueviolet;
+    color: aliceblue;
+    display: flex;
+    padding: 0px 10vw;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.logo{
+    font-size: 3rem;
+}
+header nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 1rem;
+}
+header nav ul li a{
+    color: #d5d5d5;
+    text-decoration: none;
+    border: 0.1rem solid rgb(0, 0, 0);
+    border-radius: 0.2rem;
+    padding: 1rem 0.9rem;
+}
